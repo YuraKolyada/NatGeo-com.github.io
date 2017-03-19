@@ -1,0 +1,138 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-blogs-white {
+  background-image: url(sprite_for_sidebar_menu.png);
+  background-position: 0px -712px;
+  width: 26px;
+  height: 26px;
+}
+.icon-blogs {
+  background-image: url(sprite_for_sidebar_menu.png);
+  background-position: 0px -384px;
+  width: 26px;
+  height: 26px;
+}
+.icon-calendar-white {
+  background-image: url(sprite_for_sidebar_menu.png);
+  background-position: 0px -302px;
+  width: 26px;
+  height: 26px;
+}
+.icon-calendar {
+  background-image: url(sprite_for_sidebar_menu.png);
+  background-position: 0px -343px;
+  width: 26px;
+  height: 26px;
+}
+.icon-daily-news-white {
+  background-image: url(sprite_for_sidebar_menu.png);
+  background-position: 0px -72px;
+  width: 26px;
+  height: 22px;
+}
+.icon-daily-news {
+  background-image: url(sprite_for_sidebar_menu.png);
+  background-position: 0px -109px;
+  width: 26px;
+  height: 22px;
+}
+.icon-education-white {
+  background-image: url(sprite_for_sidebar_menu.png);
+  background-position: 0px -146px;
+  width: 32px;
+  height: 23px;
+}
+.icon-education {
+  background-image: url(sprite_for_sidebar_menu.png);
+  background-position: 0px -184px;
+  width: 32px;
+  height: 23px;
+}
+.icon-games-white {
+  background-image: url(sprite_for_sidebar_menu.png);
+  background-position: 0px -222px;
+  width: 26px;
+  height: 25px;
+}
+.icon-games {
+  background-image: url(sprite_for_sidebar_menu.png);
+  background-position: 0px -262px;
+  width: 26px;
+  height: 25px;
+}
+.icon-maps-white {
+  background-image: url(sprite_for_sidebar_menu.png);
+  background-position: 0px -753px;
+  width: 26px;
+  height: 26px;
+}
+.icon-maps {
+  background-image: url(sprite_for_sidebar_menu.png);
+  background-position: 0px -425px;
+  width: 26px;
+  height: 26px;
+}
+.icon-news-white {
+  background-image: url(sprite_for_sidebar_menu.png);
+  background-position: 0px -466px;
+  width: 26px;
+  height: 26px;
+}
+.icon-news {
+  background-image: url(sprite_for_sidebar_menu.png);
+  background-position: 0px -507px;
+  width: 26px;
+  height: 26px;
+}
+.icon-science-white {
+  background-image: url(sprite_for_sidebar_menu.png);
+  background-position: 0px -548px;
+  width: 23px;
+  height: 26px;
+}
+.icon-science {
+  background-image: url(sprite_for_sidebar_menu.png);
+  background-position: 0px -589px;
+  width: 23px;
+  height: 26px;
+}
+.icon-torne-white {
+  background-image: url(sprite_for_sidebar_menu.png);
+  background-position: 0px -630px;
+  width: 19px;
+  height: 26px;
+}
+.icon-torne {
+  background-image: url(sprite_for_sidebar_menu.png);
+  background-position: 0px -671px;
+  width: 19px;
+  height: 26px;
+}
+.icon-trips-white {
+  background-image: url(sprite_for_sidebar_menu.png);
+  background-position: 0px -36px;
+  width: 26px;
+  height: 21px;
+}
+.icon-trips {
+  background-image: url(sprite_for_sidebar_menu.png);
+  background-position: 0px 0px;
+  width: 26px;
+  height: 21px;
+}
