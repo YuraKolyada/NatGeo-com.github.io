@@ -295,7 +295,6 @@ body {
   background: #555555;
   color: #ffffff;
   border: 1px solid #555555;
-  text-transform: uppercase;
 }
 #menu-slider .item-slaid.active {
   background: #555555;
@@ -334,21 +333,41 @@ body {
   right: 0;
   display: flex;
 }
-.image-slider .length-image span {
-  flex: 1 40px;
-  height: 40px;
-  width: 40px;
+.image-slider .length-image div {
+  flex: 1 26px;
+  height: 30px;
+  width: 26px;
   background: #555555;
   cursor: pointer;
   text-align: center;
-  color: white;
-  line-height: 40px;
+  color: #dddddd;
+  font-family: "myriadBold";
+  font-size: 16px;
+  line-height: 18px;
 }
-.image-slider .length-image span:hover {
-  background: #fdcc05;
+.image-slider .length-image div:last-child span {
+  border-right: none;
 }
-.image-slider .length-image span.active {
+.image-slider .length-image div span {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 6px 0px;
+  border-right: 1px solid #717171;
+}
+.image-slider .length-image div:hover {
   background: #fdcc05;
+  color: #ffffff;
+}
+.image-slider .length-image div:hover span {
+  border-right: none;
+}
+.image-slider .length-image div.active {
+  background: #fdcc05;
+  color: #ffffff;
+}
+.image-slider .length-image div.active span {
+  border-right: none;
 }
 .slide-text {
   background: #ffffff;

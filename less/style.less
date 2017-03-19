@@ -339,7 +339,6 @@ body {
 			background: #555555;
     		color: #ffffff;
     		border: 1px solid #555555;
-    		text-transform: uppercase;
 		}
 		
 		&.active{
@@ -385,21 +384,45 @@ body {
 		top: 0;
 		right: 0;
 		display: flex;
-		span {
-			flex: 1 40px;
-			height: 40px;
-			width: 40px;
+		div {
+			flex: 1 26px;
+			height: 30px;
+			width: 26px;
 			background: #555555;
 			cursor: pointer;
 			text-align: center;
-			color: white;
-			line-height: 40px;
+			color: #dddddd;
+			font-family: "myriadBold";
+			font-size: 16px;
+			line-height: 18px;
+
+			&:last-child span {
+				border-right: none;
+			}
+			
+			span {
+			    display: block;
+			    width: 100%;
+			    box-sizing: border-box;
+			    margin: 6px 0px;
+			    border-right: 1px solid #717171
+			}
+
+
 			&:hover {
 				background: #fdcc05;
+				color: #ffffff;
+				span{
+					border-right: none;
+				}
 			}
 		}
-		span.active {
+		div.active {
 			background: #fdcc05;
+			color: #ffffff;
+			span{
+				border-right: none;
+			}
 		}
 	}
 }
